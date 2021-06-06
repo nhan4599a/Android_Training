@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:id="@+id/logoUser"
+        android:src="@drawable/logouser"
+        android:layout_margin="5dp"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title1"
+        android:layout_toRightOf="@id/logoUser"
+        android:text="Title"
+        android:layout_marginTop="4dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/logoUser"
+        android:id="@+id/name1"
+        android:text="Name"
+        android:layout_below="@id/title1"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/logoUser"
+        android:id="@+id/content"
+        android:text="Content"
+        android:layout_below="@id/name1"
+        android:textColor="@color/black"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date1"
+        android:text="Date"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"></TextView>
+<!--    <ImageButton-->
+<!--        android:id="@+id/btnEmoji"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/date1"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:src="@drawable/ic_baseline_favorite_border_24"-->
+<!--        >-->
+
+<!--    </ImageButton>-->
+
+</RelativeLayout>
