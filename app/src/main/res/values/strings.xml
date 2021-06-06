@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="login_label">Login with VanLang account</string>
+    <string name="username">nhan.187pm20529@vanlanguni.vn</string>
 </resources>
