@@ -7,13 +7,14 @@
     tools:context=".HomeActivity">
 
     <include
-        android:id="@+id/appBar"
-        layout="@layout/appbar"
+        android:id="@+id/toolBar"
+        layout="@layout/toolbar"
         />
     <ListView
         android:id="@+id/ListViewItem"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/appBar"
+        android:layout_below="@id/toolBar"
         />
+
 </RelativeLayout>

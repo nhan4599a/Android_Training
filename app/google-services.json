@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "343966110316",
+    "project_id": "vanlanglogin-de42c",
+    "storage_bucket": "vanlanglogin-de42c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343966110316:android:a49485012652e8701e7e49",
+        "android_client_info": {
+          "package_name": "com.example.vlunotifyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343966110316-10qvg92qsvcjlprhl6ldklknunnhl3h9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vlunotifyapp",
+            "certificate_hash": "376018fd8a0ff42d27ad5c5c52f83f1a696158f7"
+          }
+        },
+        {
+          "client_id": "343966110316-ascv3sqm18t13ejpoa6tf229mvk1ebog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdGOg7guKWE7xVedIjPNuQSLayxkUPrd4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343966110316-ascv3sqm18t13ejpoa6tf229mvk1ebog.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
