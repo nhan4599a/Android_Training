@@ -19,7 +19,6 @@ import java.util.Map;
 
 public class LoginActivity extends AppCompatActivity {
     private FirebaseAuth auth;
-    private Toolbar tbNameUser;
 
     @Override
     protected void onStart(){
@@ -31,7 +30,6 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        tbNameUser = findViewById(R.id.ToolBar);
         findViewById(R.id.btnLogin).setOnClickListener(this::login);
     }
 

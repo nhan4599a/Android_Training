@@ -1,20 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeActivity">
-
-    <include
-        android:id="@+id/toolBar"
-        layout="@layout/toolbar"
-        />
-    <ListView
-        android:id="@+id/ListViewItem"
+    tools:context=".HomeActivity"
+    android:id="@+id/drawer_layout">
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/toolBar"
-        />
+        android:orientation="vertical">
 
-</RelativeLayout>
+        <include
+            layout="@layout/main_toolbar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ListView
+                android:id="@+id/ListViewItem"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:id="@+id/NavigationView"
+        >
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="@color/white">
+            <include
+                layout="@layout/main_nav_drawer"/>
+        </RelativeLayout>
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>
