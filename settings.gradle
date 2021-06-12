@@ -1,0 +1,2 @@
+rootProject.name = "SEPP"
+include ':app'

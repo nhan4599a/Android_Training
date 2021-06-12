@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="411dp"
+        android:layout_height="106dp"
+
+        android:layout_x="5dp"
+        android:layout_y="0dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Welcome VLU Notification"
+        android:textAlignment="center"
+        android:textColor="#0A0B0A"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_x="0dp"
+        android:layout_y="652dp"
+        android:text="Sign in by Microsoft Account"
+        android:textAlignment="center"
+        android:textSize="23sp"
+        app:backgroundTint="#03A9F4" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="322dp"
+        android:layout_x="3dp"
+        android:layout_y="167dp"
+        android:text="Trường Đại Học Văn Lang"
+        android:textAlignment="center"
+        android:textColor="#070606"
+        android:textSize="24dp"
+        app:backgroundTint="#F5F7F8" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="95dp"
+        android:layout_x="11dp"
+        android:layout_y="182dp"
+        android:src="@drawable/vl_logo"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
