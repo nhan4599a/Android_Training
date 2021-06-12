@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.myapplication">
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Main">
+        android:theme="@style/Theme.Main"
+        android:name="androidx.multidex.MultiDexApplication">
+        <!--Intent filter to capture System Browser or Authenticator calling back to our app after sign-in-->
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".SplashScreenActivity" />
-        <activity android:name=".MainActivity" android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
