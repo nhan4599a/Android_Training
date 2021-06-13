@@ -9,12 +9,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Main"
         android:name="androidx.multidex.MultiDexApplication">
+        <service android:name=".ReceiveNotificationService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
         <!--Intent filter to capture System Browser or Authenticator calling back to our app after sign-in-->
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <meta-data
+                android:name="com.google.firebase.messaging.default_notification_channel_id"
+                android:value="@string/default_notification_channel_id" />
         </activity>
         <activity android:name=".SplashScreenActivity" />
         <activity android:name=".MainActivity" />
