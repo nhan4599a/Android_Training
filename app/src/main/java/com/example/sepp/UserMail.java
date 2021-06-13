@@ -49,4 +49,4 @@ public class UserMail implements Serializable {
     public String toString(){
         return this.userName + "("+ this.userType+")";
     }
-}}
+}

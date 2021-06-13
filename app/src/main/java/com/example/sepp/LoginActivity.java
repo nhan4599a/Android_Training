@@ -29,7 +29,7 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_Login);
+        setContentView(R.layout.activity_login);
         tvLoginResult = findViewById(R.id.tvLoginResult);
         findViewById(R.id.btnLogin).setOnClickListener(this::login);
     }

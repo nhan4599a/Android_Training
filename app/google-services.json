@@ -1,34 +1,41 @@
 {
   "project_info": {
-    "project_number": "879665204270",
-    "firebase_url": "https://sepp-2d185-default-rtdb.firebaseio.com",
-    "project_id": "sepp-2d185",
-    "storage_bucket": "sepp-2d185.appspot.com"
+    "project_number": "350843102547",
+    "project_id": "vanlangnotification",
+    "storage_bucket": "vanlangnotification.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:879665204270:android:9ca0a6278a1ea40dede3bf",
+        "mobilesdk_app_id": "1:350843102547:android:441b5b8f641d3bd848ada6",
         "android_client_info": {
-          "package_name": "com.company.sepp"
+          "package_name": "com.example.sepp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "879665204270-4p4kff38rec22cvja5mdkc06t44olnue.apps.googleusercontent.com",
+          "client_id": "350843102547-353r1aundldsomfapuscofki8mrh8guh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sepp",
+            "certificate_hash": "2f19599e7abf36f8ee915da3ea4b1fff80d2eb4a"
+          }
+        },
+        {
+          "client_id": "350843102547-h95b5hp5h9joneeq954fqpc9n9st57ds.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDoq1tiurnmHwjBOrJyGI88xTo5I9fa_hg"
+          "current_key": "AIzaSyC_Uzq58_zO0HZCrjFzv-_ldLb_lSJb6lc"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "879665204270-4p4kff38rec22cvja5mdkc06t44olnue.apps.googleusercontent.com",
+              "client_id": "350843102547-h95b5hp5h9joneeq954fqpc9n9st57ds.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -1,14 +1,12 @@
 package com.example.sepp;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.google.firebase.auth.User;
+import androidx.appcompat.app.AppCompatActivity;
 
-public class SimpleActivity<UserMail> extends AppCompatActivity {
+public class SimpleActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
