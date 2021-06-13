@@ -12,10 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyUI">
         <activity android:name=".ListActivity"></activity>
-        <activity android:name=".MainActivity" />
         <activity android:name=".HomeActivity" />
+        <activity android:name=".SimpleActivity"/>
         <activity
-            android:name=".SimpleActivity"
+            android:name=".LoginActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

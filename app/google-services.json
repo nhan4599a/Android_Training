@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "508485807563",
-    "project_id": "myui-a6444",
-    "storage_bucket": "myui-a6444.appspot.com"
+    "project_number": "341729698055",
+    "project_id": "vanlanglogin-b840a",
+    "storage_bucket": "vanlanglogin-b840a.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:508485807563:android:87ec0fd96c7e0de5181a4e",
+        "mobilesdk_app_id": "1:341729698055:android:413493b22cff551d3c25a2",
         "android_client_info": {
           "package_name": "com.example.myui"
         }
       },
       "oauth_client": [
         {
-          "client_id": "508485807563-hj2dtnje2vegu0nv085j8fg70cvi2h4c.apps.googleusercontent.com",
+          "client_id": "341729698055-6nt866rm3ahjmgfsdbgbfbngf469mrr0.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyASF1wO3z0t6_5Ci8jTUjsgtUEhFaridiI"
+          "current_key": "AIzaSyBfdzEFEdnsv5JsvtkGbDULbJCWdxQniaQ"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "508485807563-hj2dtnje2vegu0nv085j8fg70cvi2h4c.apps.googleusercontent.com",
+              "client_id": "341729698055-6nt866rm3ahjmgfsdbgbfbngf469mrr0.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
