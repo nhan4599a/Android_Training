@@ -11,18 +11,18 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="tuan.187pm14032@vanlanguni.vn"
+        android:id="@+id/UserMailAddress"
         android:textStyle="bold"
         android:textSize="15sp"
         android:layout_marginLeft="16dp"
-        android:textColor="@color/black"></TextView>
+        android:textColor="@color/black"/>
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         android:background="#636363"/>
-<!--    inbox-->
+    <!--    inbox-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -41,8 +41,8 @@
             android:layout_marginEnd="48dp"
             android:src="@drawable/ic_inbox"/>
     </LinearLayout>
-<!--    inbox end-->
-<!--    statistics-->
+    <!--    inbox end-->
+    <!--    statistics-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -61,8 +61,8 @@
             android:layout_marginEnd="48dp"
             android:src="@drawable/ic_statistics"/>
     </LinearLayout>
-<!--    statistics end-->
-<!--    logout-->
+    <!--    statistics end-->
+    <!--    logout-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -81,5 +81,5 @@
             android:layout_marginEnd="48dp"
             android:src="@drawable/ic_logout"/>
     </LinearLayout>
-<!--    logout end-->
+    <!--    logout end-->
 </LinearLayout>

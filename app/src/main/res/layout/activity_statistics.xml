@@ -35,7 +35,7 @@
         android:background="@color/white">
 
         <include
-            layout="@layout/main_nav_drawer"/>
+            layout="@layout/activity_drawer"/>
     </RelativeLayout>
 </com.google.android.material.navigation.NavigationView>
 
