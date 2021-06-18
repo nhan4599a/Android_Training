@@ -1,24 +1,23 @@
-package com.example.demogiang;
+package com.example.project;
 
+import android.hardware.biometrics.BiometricPrompt;
+import android.hardware.fingerprint.FingerprintManager;
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.view.View;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.hardware.fingerprint.FingerprintManagerCompat;
 
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.OAuthCredential;
 import com.google.firebase.auth.OAuthProvider;
 
-import java.util.HashMap;
 import java.util.Locale;
-import java.util.Map;
 
-public class LoginActivity extends AppCompatActivity {
+public class Login extends AppCompatActivity {
     private TextView tvLoginResult;
     private FirebaseAuth auth;
 
@@ -29,9 +28,9 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_main);
         tvLoginResult = findViewById(R.id.tvLoginResult);
         findViewById(R.id.btnLogin).setOnClickListener(this::login);
     }
@@ -39,16 +38,13 @@ public class LoginActivity extends AppCompatActivity {
     private void login(View view)
     {
         OAuthProvider.Builder builder = OAuthProvider.newBuilder("microsoft.com");
-        Map<String, String> params = new HashMap<>();
-        params.put("prompt", "consent");
-        params.put("tenant", "3011a54b-0a5d-4929-bf02-a00787877c6a");
-        builder.addCustomParameter(params);
         Task<AuthResult> pendingAuthResult = auth.getPendingAuthResult();
-        if (pendingAuthResult != null)
+        if(pendingAuthResult != null)
         {
-            pendingAuthResult.addOnSuccessListener(this::onLoginSuccess).
-                    addOnFailureListener(this::onLoginFailure);
-        } else
+            pendingAuthResult.addOnSuccessListener(this::onLoginSuccess)
+                    .addOnFailureListener(this::onLoginFailure);
+        }
+        else
         {
             auth.startActivityForSignInWithProvider(this, builder.build())
                     .addOnSuccessListener(this::onLoginSuccess)
@@ -57,14 +53,14 @@ public class LoginActivity extends AppCompatActivity {
     }
     private void onLoginSuccess(AuthResult result)
     {
-           tvLoginResult.setText(String.format(Locale.US, "Login with email: %s",
-                   result.getUser().getEmail()));
+        tvLoginResult.setText(String.format(Locale.US, "Login with email: %s",
+                result.getUser().getEmail()));
     }
 
     private void onLoginFailure(Exception exception)
     {
         exception.printStackTrace();
-        tvLoginResult.setText(String.format(Locale.US, "Login failed: %s",
+        tvLoginResult.setText(String.format(Locale.US, "Login Failed: &s",
                 exception.getMessage()));
     }
 }

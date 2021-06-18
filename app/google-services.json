@@ -1,41 +1,41 @@
 {
   "project_info": {
-    "project_number": "730999916164",
-    "project_id": "demogiang-ba3ae",
-    "storage_bucket": "demogiang-ba3ae.appspot.com"
+    "project_number": "788257250285",
+    "project_id": "project-371c6",
+    "storage_bucket": "project-371c6.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:730999916164:android:63e19e99c936ad3e10a4d1",
+        "mobilesdk_app_id": "1:788257250285:android:6bb62b66a4c93dc1f2e5e4",
         "android_client_info": {
-          "package_name": "com.example.demogiang"
+          "package_name": "com.example.project"
         }
       },
       "oauth_client": [
         {
-          "client_id": "730999916164-8eeu7fdr2pg8ro1mr67lovgvrae4nfsj.apps.googleusercontent.com",
+          "client_id": "788257250285-diloq7sdlas17n1iok3rocfi3m7d463k.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.demogiang",
+            "package_name": "com.example.project",
             "certificate_hash": "9328278e5a76472d9173d211723db4e98af5d4cc"
           }
         },
         {
-          "client_id": "730999916164-4n5tu1isb66mtb74ibb93ke9msau9mvj.apps.googleusercontent.com",
+          "client_id": "788257250285-03g8sppa4emsdf0gu961o7qjl6i0115h.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD8I29a0C6iG1xGxQCN8Q92duhoRnCLX9Q"
+          "current_key": "AIzaSyAnEG_VTlLAkXAtT8Yys1KxaKlb5Qdz78o"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "730999916164-4n5tu1isb66mtb74ibb93ke9msau9mvj.apps.googleusercontent.com",
+              "client_id": "788257250285-03g8sppa4emsdf0gu961o7qjl6i0115h.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
